@@ -1,0 +1,11 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9990
+  adminConnectors:
+    - type: http
+      port: 9991
+logging:
+  level: INFO
+  loggers:
+    edu.forty.bits: DEBUG
